@@ -1,7 +1,7 @@
 import express, { NextFunction, Request, Response } from 'express';
 import createHttpError from 'http-errors';
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3002;
 const ui_base_url = process.env.UI_BASE_URL
 const cors = require("cors");
 
