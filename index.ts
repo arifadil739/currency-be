@@ -12,7 +12,7 @@ app.get('/', (req: Request, res: Response) => {
   res.send('Hello, world!');
 });
 
-const currencyRouter = require("../src/routes/currency.route");
+const currencyRouter = require("./src/routes/currency.route");
 app.use("/currency", currencyRouter);
 
 app.use((req: Request, res: Response, next: NextFunction) => {
